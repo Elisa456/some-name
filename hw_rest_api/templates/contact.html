@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="/static/main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Позвони мне</h1>
+        <hr>
+
+        <p><strong>Email:</strong> {{ email }}</p>
+
+        <form action="#" method="POST">
+            <label for="name">Имя:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <button type="submit">Отправить</button>
+        </form>
+
+        <p><small>Форма не обрабатывается</small></p>
+
+        <hr>
+        <a href="/">На главную</a>
+    </div>
+</body>
+</html>
